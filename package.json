@@ -1,0 +1,31 @@
+{
+  "name": "axiomauth",
+  "version": "1.4.2",
+  "description": "Official Node.js SDK for AxiomAuth enterprise identity management",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "test": "jest --coverage",
+    "lint": "eslint src/"
+  },
+  "keywords": ["sso", "saml", "oidc", "identity", "authentication", "mfa", "scim", "axiomauth"],
+  "author": "Axiom Identity Services Ltd. <dev@axiomauth.com>",
+  "license": "MIT",
+  "homepage": "https://axiomauth.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axiomauth/axiomauth-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/axiomauth/axiomauth-node/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "jest": "^29.0.0",
+    "typescript": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
